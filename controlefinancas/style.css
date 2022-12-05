@@ -34,7 +34,7 @@ main{
 
 .resume{
     display: flex;
-    padding: 10px 0px;
+    padding: 20px 0px;
     gap: 20px;
     width: 100%;
     justify-content: center;
@@ -68,14 +68,14 @@ main{
     background-color: #2c73d2;
     color: white;
     border: none;
-    padding: 0px 15px;
+    padding: 0px 10px;
     border-radius: 5px;
     cursor: pointer;
     height: 34px;
 }
 
 input, select{
-    padding: 5px;
+    padding: 4px;
 }
 
 .divTable{

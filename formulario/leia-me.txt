@@ -1,0 +1,32 @@
+bibliotec.com.br
+
+É um site que tem como princípio reunir conhecimentos já aprendidos que serviram como consulta. Segue abaixo primeiros conhecimentos a ser adicionadso ao Códice.
+
+HTML
+
+CSS
+
+JAVASCRIPT
+
+LINUX
+
+PYTHON
+
+CCNA
+
+REDES
+
+SERGURANÇA
+
+#################################################
+
+DESIGN
+
+O site terás as cores azul e roxo. Azul por ser a cor do profissionalismo e roxo por ser a cor da sabedoria.
+
+#################################################
+
+SITES PARA CIRAR PALETA
+
+https://color.adobe.com/pt/create/color-wheel
+

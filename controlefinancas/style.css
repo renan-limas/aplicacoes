@@ -118,6 +118,17 @@ i{
     border: none;
 }
 
+.btnSmall{
+    cursor: pointer;
+    background-color: #2c73d2;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
 .columAmount{
     width: 30%;
 }
@@ -127,13 +138,8 @@ i{
     text-align: center;
 }
 
-button{
-    cursor: pointer;
-    background-color: #2c73d2;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
+@media screen and (max-width: 800px) {
+    /*MAX WIDTH = TELAS MENORES QUE ALGUMA RESOLUCAO*/
+
+   
 }

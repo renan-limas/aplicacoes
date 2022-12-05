@@ -35,7 +35,7 @@ main{
 .resume{
     display: flex;
     padding: 10px 0px;
-    gap: 40px;
+    gap: 20px;
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
@@ -43,7 +43,7 @@ main{
 
 .resume > div{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
     padding: 10px;
@@ -129,7 +129,7 @@ i{
 
 button{
     cursor: pointer;
-    background-color: #6f00ff;
+    background-color: #2c73d2;
     color: white;
     padding: 10px;
     font-size: 20px;

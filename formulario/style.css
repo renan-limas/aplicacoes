@@ -20,16 +20,13 @@ body{
 }
 
 main{
-    position: absolute;
-    width: 500px;
+    position: absolute;    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 20px;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 40px;    
 }
 
 .divAltura, .divPeso, .divCalc{

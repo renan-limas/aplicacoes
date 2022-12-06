@@ -41,13 +41,16 @@ main{
     flex-wrap: wrap;
 }
 
-.resume > div{
+.resume > div {
     display: flex;
     flex-direction: row;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 10px;
     padding: 10px;
     width: 150px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .newItem{
@@ -138,8 +141,58 @@ i{
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     /*MAX WIDTH = TELAS MENORES QUE ALGUMA RESOLUCAO*/
 
+    main{
+        margin: 20px;
+    }
+
+    .resume{
+        display: flex;
+        padding: 20px 0px;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .resume > div{
+        display: flex;
+        flex-direction: row;
+        box-shadow: 0px 0px 5px #ccc;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .newItem{
+        display: flex;
+        gap: 10px;        
+        width: 100%;        
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: flex-start;      
+    }
+
+    .divDesc, .divAmount, .divType{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .newItem > button {
+        background-color: #2c73d2;
+        color: white;
+        border: none;
+        padding: 0px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        height: 34px;
+        width: 100%;
+    }
    
 }
+
